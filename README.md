@@ -17,3 +17,5 @@ source ~/.bashrc #配置生效
 startxfce4 #如何运行xfce4
 ```
 
+[apt source](./source.txt)
+
