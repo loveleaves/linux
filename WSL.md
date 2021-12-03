@@ -1,5 +1,11 @@
 # WSL
 
+windiwsÎÄ¼şÎ»ÖÃ
+
+``` sh
+C:\Users\Administrator\AppData\Local\Packages\com..
+```
+
 ## windowsÃüÁî
 
 ``` cmd 
