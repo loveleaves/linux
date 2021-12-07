@@ -46,5 +46,5 @@ startxfce4 #如何运行xfce4
 ## 配套软件
 
 - XLaunch
-- ssh
+- [ssh安装及使用](./ssh.md)
 

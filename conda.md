@@ -28,6 +28,9 @@ conda deactivate
 # 查看所有虚拟环境
 conda env list
 
+# 删除环境
+conda remove -n env-name all
+
 # 查看环境中的包
 conda list
 
