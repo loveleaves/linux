@@ -4,6 +4,18 @@
 
 [wsl](./WSL.md)
 
+## Arch
+
+blog：https://archlinuxstudio.github.io/ArchLinuxTutorial/#/
+
+wiki：https://wiki.archlinux.org/
+
+## Environment
+
+### jupyter
+
+虚拟机下jupyter环境搭建：https://www.bbsmax.com/A/D854YrwVdE/  [md](./jupyter.md)
+
 ## Source
 
 ### Ubuntu

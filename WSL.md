@@ -48,3 +48,4 @@ startxfce4 #如何运行xfce4
 - XLaunch
 - [ssh安装及使用](./ssh.md)
 
+- 美化：https://www.zhihu.com/people/xuan-xiao-zhu-ji-xiang
