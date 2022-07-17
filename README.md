@@ -10,6 +10,10 @@ blog：https://archlinuxstudio.github.io/ArchLinuxTutorial/#/
 
 wiki：https://wiki.archlinux.org/
 
+## conda
+
+[conda](conda.md)
+
 ## Environment
 
 ### jupyter

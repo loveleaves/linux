@@ -61,7 +61,9 @@ sudo chmod 755 Archiconda3-0.2.3-Linux-aarch64.sh
 [github](https://github.com/conda-forge/miniforge)
 
 ```docs
-# 下载aarch64版本并赋权安装
+# 下载aarch64版本并安装，并初始化conda ,初始化后需重新打开终端
+bash Miniforge3-4.12.0-2-Linux-aarch64.sh -b
+~/miniforge3/bin/conda init
 # 使用和Anaconda一致
 ```
 
