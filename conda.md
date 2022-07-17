@@ -67,3 +67,32 @@ bash Miniforge3-4.12.0-2-Linux-aarch64.sh -b
 # 使用和Anaconda一致
 ```
 
+## 环境迁移
+
+1、将要迁移的环境打包
+
+```docs
+conda pack -n 虚拟环境名称 -o output.tar.gz
+#如果报错：No command ‘conda pack’：尝试使用：conda install -c conda-forge conda-pack
+#如果CondaPackError: Cannot pack an environment with editable packages，
+#忽略这些库：conda pack -n pcdet -o pcdet.tar.gz --ignore-editable-packages
+```
+
+2、目标机器或位置解压
+
+```docs
+#进到conda的安装目录：/anaconda(或者miniconda)/envs/,并在该名目录下创建文件夹
+解压conda环境：tar -xzvf output.tar.gz -C /anaconda(或者miniconda)/envs/创建的文件夹/
+使用conda env list查看虚拟环境
+source /anaconda(或者miniconda)/envs/创建的文件夹/bin/activate #激活环境
+```
+
+3、若存在editable packages，打包对应库
+
+```docs
+# 列出所有库并手动查看所有editable packages
+pip list
+# 在对应库位置对其打包zip或tar
+# 解压到pip list中库所在指定位置
+```
+
