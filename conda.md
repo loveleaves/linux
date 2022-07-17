@@ -40,3 +40,28 @@ conda remove packname 激活虚拟环境后移除包
 conda update packname 激活虚拟环境后更新包
 也可以pip安装，建议conda
 ```
+
+## Archiconda
+
+> jetson nano是aarch64架构， Anaonda的仓库中并不存在aarch64的相关编译版本 ，适合使用Archiconda和miniforge等，Archiconda最新更新2019年0.2.3版本，建议使用miniforge
+
+[github](https://github.com/Archiconda/build-tools/releases) 
+
+```docs
+# 赋权并安装
+sudo chmod 755 Archiconda3-0.2.3-Linux-aarch64.sh
+./Archiconda3-0.2.3-Linux-aarch64.sh
+# 使用和Anaconda一致
+```
+
+**Note**:需要的包需要有aarch64的版本才行，否则只能使用whl包离线安装，要是whl包也没有那就只能放弃了 
+
+##  miniforge 
+
+[github](https://github.com/conda-forge/miniforge)
+
+```docs
+# 下载aarch64版本并赋权安装
+# 使用和Anaconda一致
+```
+
