@@ -85,6 +85,7 @@ conda pack -n 虚拟环境名称 -o output.tar.gz
 解压conda环境：tar -xzvf output.tar.gz -C /anaconda(或者miniconda)/envs/创建的文件夹/
 使用conda env list查看虚拟环境
 source /anaconda(或者miniconda)/envs/创建的文件夹/bin/activate #激活环境
+#或conda create -n 环境2 --clone 复制的环境1的路径
 ```
 
 3、若存在editable packages，打包对应库
