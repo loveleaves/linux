@@ -1,5 +1,9 @@
 # linux
 
+## Os
+
+[Multiple Operating Systems Installation](./os.md)
+
 ## WSL
 
 [wsl](./WSL.md)
@@ -36,6 +40,8 @@ wiki：https://wiki.archlinux.org/
 | Ubuntu 19.04                              | disco    |
 | Ubuntu 20.04                              | focal    |
 
-### 镜像源
+### Open source mirrors
 
 [Tsinghua](https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/)
+
+[ustc](https://mirrors.ustc.edu.cn/)
